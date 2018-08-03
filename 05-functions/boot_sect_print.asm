@@ -20,7 +20,7 @@ done:
 ;-------
 
 ;function to print newline
-print_n1:
+print_nl:
     pusha
 
     mov al, 0x0a

@@ -2,19 +2,19 @@
 
 mov bx, HELLO
 call print
-call print_n1
+call print_nl
 
 mov bx, GOODBYE
 call print
-call print_n1
+call print_nl
 
 mov dx, 0x1234
 call print_hex
-call print_n1
+call print_nl
 
 mov dx, 0x3F7C
 call print_hex
-call print_n1
+call print_nl
 
 jmp $
 
